@@ -15,18 +15,17 @@ A Discord bot that lets approved users submit structured feedback through a butt
 
 ## Requirements
 
-- Python 3.10+
+- Node.js 18+
 - A Discord bot token
 - Bot invited to your server with required permissions
 
 ## Installation
 
 1. Clone the repository.
-2. Create and activate a virtual environment.
-3. Install dependencies:
+2. Install dependencies:
 
 ```bash
-pip install discord.py python-dotenv
+npm install
 ```
 
 ## Configuration
@@ -44,7 +43,7 @@ ALLOWED_ROLE_ID=role_id_allowed_to_submit
 ## Run
 
 ```bash
-python bot.py
+npm start
 ```
 
 ## Usage
